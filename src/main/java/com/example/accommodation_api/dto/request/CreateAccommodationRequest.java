@@ -9,7 +9,6 @@ import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 @Data
-@Schema(description = "Request body for creating a new accommodation")
 public class CreateAccommodationRequest {
 
     @NotBlank(message = "Name must not be blank")
